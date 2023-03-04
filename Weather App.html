@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCP Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+  
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+
+ 
+  </head>
+  <body>
+    <div class="container">
+<form id="search">
+        <input class="searchCity" type="search" placeholder="search city here" id="search-input">
+        <button>Search</button>
+      </form>
+      
+      <h1 id="city">Houston</h1>
+      <ul>
+        <li id="current">Monday 12:59PM</li>
+      </ul>
+      <h2>55°F ☀️</h2>
+     <div id="temperature-description"></div>
+      <div class="days">
+        <div class="row row-cols-5">
+          <div class="col">Saturday</div>
+          
+          <div class="col">Sunday</div>
+          <div class="col">Monday</div>
+          <div class="col">Tuesday</div>
+          <div class="col">Wednesday</div>
+          <div class="col">⛅</div>
+          <div class="col">⛅</div>
+          <div class="col">🌥️</div>
+          <div class="col">🌧️</div>
+          <div class="col">⛈️</div>
+        </div>
+      </div>
+    
+    <div class="temp">
+      <div class="row row-cols-5">
+        <div class="col">55°F</div>
+        <div class="col">65°F</div>
+        <div class="col">70°F</div>
+        <div class="col">75°F</div>
+        <div class="col">80°F</div>
+         <div class="col">Partly Cloudy</div>
+        <div class="col">Partly Cloudy</div>
+        <div class="col">Mostly Cloudy</div>
+        <div class="col">Rain</div>
+        <div class="col">Scattered Thundderstorms</div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
