@@ -1,12 +1,18 @@
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: "Shantell Sans", cursive;
+
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
 }
 
 button {
   display: block;
   margin: 0 auto;
   border-radius: 4px;
-  background: rgb(2, 2, 124);
+  background: black;
   color: #ffff;
 }
 .temperature-description {
@@ -20,14 +26,14 @@ button {
   margin: 0 auto;
   border-radius: 8px;
   border-width: 3px;
-  border-color: rgb(2, 2, 124);
+  border-color: black;
   padding: 10px;
   text-align: center;
 }
 h1 {
   font-size: 50px;
   font-weight: bolder;
-  color: rgb(2, 2, 124);
+  color: black;
 }
 h2 {
   font-size: 30px;
